@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">轻松课堂</string>
+    <string name="Add">添加</string>
+    <string name="ListAll">名单</string>
+    <string name="Onduty">点名</string>
+    <string name="Det">考勤</string>
+    <string name="Grademanage">成绩管理</string>
+    <string name="hintInfo">请输入学号或姓名</string>
+
+</resources>

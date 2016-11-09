@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#191d38</color>
+    <color name="colorPrimaryDark">#111635</color>
+    <color name="colorAccent">#c9c9c9</color>
+
+    <color name="gold">#abaaaa</color>
+    <color name="azure">#999</color><!--标题栏颜色-->
+    <color name="s_l">#fff</color>
+    <color name="wait">#f70404</color>
+</resources>

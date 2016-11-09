@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_student_Id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_student_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp" />
+    </LinearLayout>
+        <RadioGroup
+            android:id="@+id/rg_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="迟到" />
+
+            <RadioButton
+                android:id="@+id/rb_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="请假" />
+
+            <RadioButton
+                android:id="@+id/rb_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="旷课" />
+
+            <RadioButton
+                android:id="@+id/rb_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="全勤" />
+            <RadioButton
+                android:id="@+id/rb_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="早退" />
+        </RadioGroup>
+    </LinearLayout>
+
+</LinearLayout>
